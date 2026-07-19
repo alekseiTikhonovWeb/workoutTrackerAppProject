@@ -32,7 +32,7 @@ function App() {
 
   useEffect(() => {
       fetchSets().then(data => setSets(data));  
-    });
+    },[]);
 
 
   return (
